@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="logo.png" alt="" width="24" height="24">
+            <span>your name</span>
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Contact</h1>
+    </header>
+    <aside>
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="projects.html#portfolio">
+                    HTML Only Portfolio
+                </a></li>
+            <li><a href="projects.html#calculator">
+                    Calculator
+                </a></li>
+            <li><a href="projects.html#quiz-app">
+                    Quiz App
+                </a></li>
+            <li><a href="projects.html#countdown-timer">
+                    Countdown Timer
+                </a></li>
+            <li><a href="projects.html#upcoming">
+                    Product Upcoming Page
+                </a></li>
+        </ul>
+    </aside>
+    <main>
+        <section>
+            <p>Have a question? Feel free to contact me with the form below</p>
+        </section>
+        <section>
+            <h2>Send a Message</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <p>
+                        <label for="name">Full Name:</label> <br>
+                        <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                    </p>
+                    <p>
+                        <label for="email">Email Address</label> <br>
+                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                    </p>
+                    <p><label for="subject">Reason for Contact:</label> <br>
+                        <select name="subject" id="subject">
+                            <option value="general">General</option>
+                            <option value="job">Job</option>
+                            <option value="project">Project</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <p>
+                        <label for="message">Message</label> <br>
+                        <textarea name="message" id="message" rows="6" cols="40" required
+                            placeholder="Write your message here..."></textarea>
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Direct Contact Information</h2>
+            <address>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:jane@example.com">jane@example.com</a>
+                </p>
+                <p>
+                    <strong>Location:</strong>
+                    Warsaw, Poland
+                </p>
+            </address>
+
+            <h3>Connect Online</h3>
+            <ul>
+                <li><a href="https://github.com/tytussosinski" target="_blank">GitHub</a></li>
+                <li><a href="https://roadmap.sh" target="_blank">roadmap.sh Profile</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; all rights reserved 2026</p>
+    </footer>
+</body>
+
+</html>
